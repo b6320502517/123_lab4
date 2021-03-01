@@ -30,7 +30,7 @@ int main(){
 
 		}			
 	}
-	for(j=0;j<11;j++)
+	for(j=0;j<10;j++)
 		printf("%c",x[m][j]);
 		
 	return 0;
