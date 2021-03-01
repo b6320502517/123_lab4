@@ -30,10 +30,10 @@ int main(){
 		for(i=0;i<n-2;i++){
 			if(l>k[i]){
 				l=k[i];
-				m=i;
+				o=i;
 
 		}			
 	}
-	printf("%d %d",o+1,m+1);
+	printf("%d %d",m+1,o+1);
 	return 0;
 }
