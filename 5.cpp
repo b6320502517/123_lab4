@@ -1,6 +1,6 @@
 #include<stdio.h>
 int main(){
-	int n=1,i,j,k,l=1,m=0;
+	int n=1,i,j,k,l=1;
 	if(n>0&&n<100)
 		scanf("%d",&n);
 	char x[n][50];
@@ -63,11 +63,10 @@ int main(){
 
 		}
 		else
-			m++;
+			break;
 		
 		}
-		if(m==0)
-			printf("%d\n",l);
+		printf("%d\n",l);
 	}
 	
 	return 0;
