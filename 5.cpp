@@ -8,6 +8,7 @@ int main(){
 		scanf(" %[^\n]s",x[i]);
 	}
 	for(j=0;j<n;j++){
+		l=1;
 		for(i=0;x[j][i]!='\0';i++){
 			if(x[j][i]>='A'&&x[j][i]<='E'){
 				if(x[j][i]=='A'){
