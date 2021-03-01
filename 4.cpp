@@ -11,8 +11,11 @@ int main(){
         for(j=0;j<11;j++)
           if(strcmp(m,d[j]))
             k++;
-        if(k==11||i==0)
-          printf("%c",toupper(m[0]));
+        if(k==11||i==0){
+        	if((m[0]>='a'||m[0]>='A')&&(m[0]<='z'||m[0]<='Z'))
+        		printf("%c",toupper(m[0]));
+		}
+          
     m = strtok(NULL," ");
     i++, k=0;
 }
